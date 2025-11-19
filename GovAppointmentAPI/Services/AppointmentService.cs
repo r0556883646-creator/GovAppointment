@@ -14,18 +14,13 @@ namespace GovAppointmentAPI.Services
     {
         private readonly IMongoCollection<Appointment> _appointments;
 
-        //private readonly int _reserveRetries = 1; // אפשר להגדיל אם רוצים
         public AppointmentService(MongoDbContext context)
         {
             _appointments = context.Appointments;
         }
 
 
-        //public AppointmentService(IMongoDatabase db)
-        //{
-        //    _appointments = db.GetCollection<Appointment>("appointments");
-
-        //}
+        
         public async Task<Appointment> CreateAppointmentAsync(Appointment appointment)
         {
             // הכנסה למסד
