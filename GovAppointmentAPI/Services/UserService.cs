@@ -1,15 +1,18 @@
-﻿using GovAppointmentAPI.models;
+﻿using GovAppointmentAPI.Contracts;
+using GovAppointmentAPI.data;
+using GovAppointmentAPI.models;
 using MongoDB.Driver;
 
 namespace GovAppointmentAPI.Services
 {
-    public class UserService
+    public class UserService:IUserService
     {
+       
         private readonly IMongoCollection<User> _users;
 
-        public UserService(IMongoDatabase db)
+        public UserService(MongoDbContext context)
         {
-            _users = db.GetCollection<User>("users");
+            _users = context.Users;
         }
 
         public async Task<User> GetOrCreateUserAsync(string externalId, string name, string phone, string email)

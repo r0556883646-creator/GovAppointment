@@ -10,7 +10,7 @@
         "projectUniqueName": "C:\\Projects\\test\\GovAppointmentAPI\\GovAppointmentAPI.csproj",
         "projectName": "GovAppointmentAPI",
         "projectPath": "C:\\Projects\\test\\GovAppointmentAPI\\GovAppointmentAPI.csproj",
-        "packagesPath": "C:\\Users\\תמר\\.nuget\\packages\\",
+        "packagesPath": "C:\\NuGetPackages",
         "outputPath": "C:\\Projects\\test\\GovAppointmentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
@@ -58,7 +58,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[10.0.0, )"
             },
             "Microsoft.OpenApi": {
               "target": "Package",

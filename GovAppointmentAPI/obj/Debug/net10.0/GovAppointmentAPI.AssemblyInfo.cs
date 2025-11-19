@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GovAppointmentAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+676d1b00a1d81700a76e7efa5a922ecfc9de2473")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8d938ca20cb8a823333b1bd9546e7b9c41b1480")]
 [assembly: System.Reflection.AssemblyProductAttribute("GovAppointmentAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GovAppointmentAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

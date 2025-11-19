@@ -4,7 +4,7 @@ using GovAppointmentAPI.utiles;
 
 namespace GovAppointmentAPI.Services
 {
-    public class BookingProcessService
+    public class BookingProcessService: IBookingProcessService
     {
         private readonly IUserService _userService;
         private readonly ISlotService _slotService;
@@ -22,10 +22,10 @@ namespace GovAppointmentAPI.Services
             _appointmentService = appointmentService;
             _auditService = auditService;
         }
-        public async Task<int> ExecuteBookingProcessAsync(string externalUserId, string slotId)
+        public async Task<Appointment> ExecuteBookingProcessAsync(string externalUserId,  string name, string phone, string email,string slotId)
         {
             // 1. קבלת או יצירת משתמש
-            var userRet = await _userService.GetOrCreateUserAsync(externalUserId);
+            var userRet = await _userService.GetOrCreateUserAsync(externalUserId,name,phone,email);
             if (userRet == null)
                 throw new Exception("User not available");
 
@@ -59,7 +59,7 @@ namespace GovAppointmentAPI.Services
             await _auditService.CreateLogAsync(appointmentRet.Id, (int)AuditEventType.Create, userRet.Id, appointment.CorrelationId);
 
 
-            return appointmentRet.StatusId;
+            return appointmentRet;
         }
     }
 }

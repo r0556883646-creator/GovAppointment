@@ -1,3 +1,4 @@
+using GovAppointmentAPI.Contracts;
 using GovAppointmentAPI.models;
 using GovAppointmentAPI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -6,32 +7,22 @@ using Microsoft.AspNetCore.Mvc;
 [Route("api/[controller]")]
 public class AppointmentController : ControllerBase
 {
-    private readonly AppointmentService _service;
-    public AppointmentController(AppointmentService service) => _service = service;
+    private readonly IAppointmentService _serviceAppointment;
+    public AppointmentController(IAppointmentService service) => _serviceAppointment = service;
 
-//    [HttpGet]
-//    public async Task<IActionResult> GetAll() => Ok(await _service.GetAllAsync());
+    // GET api/appointments?serviceTypeId=svc-1&officeId=office-1&date=2025-11-25
+    [HttpGet]
+    public async Task<ActionResult<List<Appointment>>> GetAppointments(
+        [FromQuery] string serviceTypeId,
+        [FromQuery] string officeId,
+        [FromQuery] DateTime date)
+    {
+        if (string.IsNullOrEmpty(serviceTypeId) || string.IsNullOrEmpty(officeId))
+        {
+            return BadRequest("serviceTypeId and officeId are required.");
+        }
 
-//    [HttpGet("{id}")]
-//    public async Task<IActionResult> Get(string id)
-//    {
-//        var appt = await _service.GetAsync(id);
-//        if (appt == null) return NotFound();
-//        return Ok(appt);
-//    }
-
-//    [HttpPost]
-//    public async Task<IActionResult> Create([FromBody] Appointment appt, [FromHeader] string userId)
-//    {
-//        var created = await _service.CreateAsync(appt, userId);
-//        return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
-//    }
-
-//    [HttpPost("{id}/cancel")]
-//    public async Task<IActionResult> Cancel(string id, [FromHeader] string userId, [FromQuery] bool byOffice = false)
-//    {
-//        var cancelled = await _service.CancelAsync(id, userId, byOffice);
-//        if (cancelled == null) return NotFound();
-//        return Ok(cancelled);
- //   }
+        var appointments = await _serviceAppointment.GetAppointmentsAsync(serviceTypeId, officeId, date);
+        return Ok(appointments);
+    }
 }

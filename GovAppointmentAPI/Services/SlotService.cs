@@ -1,4 +1,5 @@
 ﻿using GovAppointmentAPI.Contracts;
+using GovAppointmentAPI.data;
 using GovAppointmentAPI.models;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -7,13 +8,16 @@ namespace GovAppointmentAPI.Services
 {
     public class SlotService: ISlotService
     {
+
+      
         private readonly IMongoCollection<AppointmentSlot> _slotCollection;
 
 
-        public SlotService(IMongoDatabase database)
+        public SlotService(MongoDbContext context)
         {
-            _slotCollection = database.GetCollection<AppointmentSlot>("appointmentSlots");
-           
+            _slotCollection = context.AppointmentSlots;
+
+
         }
 
         /// <summary>
@@ -71,7 +75,7 @@ namespace GovAppointmentAPI.Services
             {
                 { "$and", new BsonArray
                     {
-                        new BsonDocument("Id", slotId),
+                        new BsonDocument("_id", slotId),
                         new BsonDocument("$expr", new BsonDocument("$lt", new BsonArray { "$reservedCount", "$capacity" }))
                     }
                 }

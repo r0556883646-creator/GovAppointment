@@ -1,14 +1,20 @@
-﻿using MongoDB.Driver;
+﻿using GovAppointmentAPI.Contracts;
+using GovAppointmentAPI.data;
 using GovAppointmentAPI.models;
 using GovAppointmentAPI.utiles;
+using MongoDB.Driver;
 
 
 namespace GovAppointmentAPI.Services
 {
-    public class AuditService
+    public class AuditService: IAuditService
     {
         private readonly IMongoCollection<AuditLog> _auditLogs;
-        public AuditService(IMongoDatabase db) => _auditLogs = db.GetCollection<AuditLog>("auditLogs");
+
+        public AuditService(MongoDbContext context)
+        {
+            _auditLogs = context.AuditLogs;
+        }
 
         public async Task CreateLogAsync(string entityId, int typeId, string by, string? correlationId = null, object? payload = null)
         {
