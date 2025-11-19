@@ -22,7 +22,7 @@ public class AppointmentController : ControllerBase
             return BadRequest("serviceTypeId and officeId are required.");
         }
 
-        var appointments = await _serviceAppointment.GetAppointmentsAsync(serviceTypeId, officeId, date);
+        var appointments = await _serviceAppointment.GetAppointmentsForDayAndServAsync(serviceTypeId, officeId, date);
         return Ok(appointments);
     }
 }

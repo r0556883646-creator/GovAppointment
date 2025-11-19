@@ -39,7 +39,7 @@ namespace GovAppointmentAPI.Services
             if (userRet == null)
                 throw new Exception("User not available");
 
-            // 2. בדיקת זמינות סלוט
+            // 2. בדיקת זמינות תור
             var availableSlotRet= await _slotService.GetAvailableSlotAsync(slotId);
            
             if (availableSlotRet == null)

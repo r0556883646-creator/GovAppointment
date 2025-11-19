@@ -5,6 +5,6 @@ namespace GovAppointmentAPI.Contracts
     {
         Task<Appointment> CreateAppointmentAsync(Appointment appointment);
         Task<Appointment?> GetAppointmentByIdAsync(string id);
-        Task<List<Appointment>> GetAppointmentsAsync(string serviceTypeId, string officeId, DateTime date);
+        Task<List<Appointment>> GetAppointmentsForDayAndServAsync(string serviceTypeId, string officeId, DateTime date);
     }
 }

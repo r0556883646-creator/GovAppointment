@@ -45,7 +45,7 @@ namespace GovAppointmentAPI.Services
         /// <param name="officeId"></param>
         /// <param name="date"></param>
         /// <returns></returns>
-        public async Task<List<Appointment>> GetAppointmentsAsync(string serviceTypeId, string officeId, DateTime date)
+        public async Task<List<Appointment>> GetAppointmentsForDayAndServAsync(string serviceTypeId, string officeId, DateTime date)
         {
             // יוצר טווח של התחלת יום והתחלת היום הבא
             var startOfDay = date.Date;
