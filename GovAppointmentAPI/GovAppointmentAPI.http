@@ -1,0 +1,6 @@
+@GovAppointmentAPI_HostAddress = http://localhost:5192
+
+GET {{GovAppointmentAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
