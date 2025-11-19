@@ -1,0 +1,420 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u05EA\u05DE\u05E8\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\build\\Microsoft.Extensions.ApiDescription.Server.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\services\\bookingprocessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\services\\slotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\models\\appointmentslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\contracts\\islotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\models\\ministry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\models\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\models\\officeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\models\\office.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\utiles\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\contracts\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\contracts\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\exceptions\\slotunavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\govappointmentapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790E8AF3-F8FA-5C41-1799-C7BE61957ADA}|..\\GovAppointmentAPI\\GovAppointmentAPI.csproj|c:\\projects\\govappointmentapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Extensions.ApiDescription.Server.targets",
+              "DocumentMoniker": "C:\\Users\\\u05EA\u05DE\u05E8\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\build\\Microsoft.Extensions.ApiDescription.Server.targets",
+              "RelativeDocumentMoniker": "..\\..\\Users\\\u05EA\u05DE\u05E8\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\build\\Microsoft.Extensions.ApiDescription.Server.targets",
+              "ToolTip": "C:\\Users\\\u05EA\u05DE\u05E8\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\build\\Microsoft.Extensions.ApiDescription.Server.targets",
+              "RelativeToolTip": "..\\..\\Users\\\u05EA\u05DE\u05E8\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\build\\Microsoft.Extensions.ApiDescription.Server.targets",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwEEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-19T12:38:50.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ministry.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\models\\Ministry.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\models\\Ministry.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\models\\Ministry.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\models\\Ministry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:46:36.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingProcessService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Services\\BookingProcessService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Services\\BookingProcessService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Services\\BookingProcessService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Services\\BookingProcessService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T10:43:40.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAwwHwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:29:40.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SlotService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Services\\SlotService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Services\\SlotService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Services\\SlotService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Services\\SlotService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T10:19:49.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISlotService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Contracts\\ISlotService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Contracts\\ISlotService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Contracts\\ISlotService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Contracts\\ISlotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T10:41:09.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppointmentSlot.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\models\\AppointmentSlot.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\models\\AppointmentSlot.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\models\\AppointmentSlot.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\models\\AppointmentSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T08:18:35.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:29:19.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\data\\MongoDbContext.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\data\\MongoDbContext.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\data\\MongoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:29:27.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Program.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Program.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:30:03.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Services\\AuditService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Services\\AuditService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Services\\AuditService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Services\\AuditService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T10:06:38.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceType.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\models\\ServiceType.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\models\\ServiceType.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\models\\ServiceType.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\models\\ServiceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:45:26.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OfficeService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\models\\OfficeService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\models\\OfficeService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\models\\OfficeService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\models\\OfficeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:42:39.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Office.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\models\\Office.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\models\\Office.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\models\\Office.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\models\\Office.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:43:30.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\models\\User.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\models\\User.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\models\\User.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T09:51:10.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Contracts\\IAuditService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Contracts\\IAuditService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Contracts\\IAuditService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Contracts\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T10:42:41.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Contracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Contracts\\IUserService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Contracts\\IUserService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Contracts\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T10:40:34.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Contracts\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Contracts\\IAppointmentService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Contracts\\IAppointmentService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Contracts\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T10:42:03.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T09:58:13.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Const.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\utiles\\Const.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\utiles\\Const.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\utiles\\Const.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\utiles\\Const.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T08:04:56.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\models\\AuditLog.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\models\\AuditLog.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:29:36.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\models\\Appointment.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\models\\Appointment.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\models\\Appointment.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T07:29:33.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SlotUnavailableException.cs",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\Exceptions\\SlotUnavailableException.cs",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\Exceptions\\SlotUnavailableException.cs",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\Exceptions\\SlotUnavailableException.cs",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\Exceptions\\SlotUnavailableException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T08:55:33.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\appsettings.Development.json",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T07:29:46.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GovAppointmentAPI.http",
+              "DocumentMoniker": "C:\\Projects\\GovAppointmentAPI\\GovAppointmentAPI.http",
+              "RelativeDocumentMoniker": "..\\GovAppointmentAPI\\GovAppointmentAPI.http",
+              "ToolTip": "C:\\Projects\\GovAppointmentAPI\\GovAppointmentAPI.http",
+              "RelativeToolTip": "..\\GovAppointmentAPI\\GovAppointmentAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-19T07:29:50.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
