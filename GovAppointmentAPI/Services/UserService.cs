@@ -14,7 +14,15 @@ namespace GovAppointmentAPI.Services
         {
             _users = context.Users;
         }
-
+        /// <summary>
+        /// הפונקציה מחזירה את המשתמש אם קיים 
+        /// הכנסת משתמש חדש אם לא קיים
+        /// </summary>
+        /// <param name="externalId"></param>
+        /// <param name="name"></param>
+        /// <param name="phone"></param>
+        /// <param name="email"></param>
+        /// <returns></returns>
         public async Task<User> GetOrCreateUserAsync(string externalId, string name, string phone, string email)
         {
             var user = await _users.Find(u => u.ExternalId == externalId).FirstOrDefaultAsync();

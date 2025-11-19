@@ -22,6 +22,16 @@ namespace GovAppointmentAPI.Services
             _appointmentService = appointmentService;
             _auditService = auditService;
         }
+        /// <summary>
+        /// תהליך הזמנת פגישה לאחר בחירת המשרד וסוג השירות
+        /// </summary>
+        /// <param name="externalUserId"></param>
+        /// <param name="name"></param>
+        /// <param name="phone"></param>
+        /// <param name="email"></param>
+        /// <param name="slotId"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public async Task<Appointment> ExecuteBookingProcessAsync(string externalUserId,  string name, string phone, string email,string slotId)
         {
             // 1. קבלת או יצירת משתמש

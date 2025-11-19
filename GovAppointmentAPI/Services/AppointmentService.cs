@@ -20,7 +20,7 @@ namespace GovAppointmentAPI.Services
         }
 
 
-        
+
         public async Task<Appointment> CreateAppointmentAsync(Appointment appointment)
         {
             // הכנסה למסד
@@ -32,20 +32,27 @@ namespace GovAppointmentAPI.Services
 
             return appointment;
         }
-
+       
         public async Task<Appointment?> GetAppointmentByIdAsync(string id)
         {
             return await _appointments.Find(a => a.Id == id).FirstOrDefaultAsync();
         }
+        /// <summary>
+        /// הפונקציה מחזירה את כל הפגישות הקימות בטבלה בכל הסטטוסים  
+        /// עבור הנתונים: משרד סוג שירות ותתאריך מסוים
+        /// </summary>
+        /// <param name="serviceTypeId"></param>
+        /// <param name="officeId"></param>
+        /// <param name="date"></param>
+        /// <returns></returns>
         public async Task<List<Appointment>> GetAppointmentsAsync(string serviceTypeId, string officeId, DateTime date)
         {
-            // יוצר טווח של התחלת וסיום יום
+            // יוצר טווח של התחלת יום והתחלת היום הבא
             var startOfDay = date.Date;
             var endOfDay = startOfDay.AddDays(1);
 
             var filter = Builders<Appointment>.Filter.Eq(a => a.ServiceTypeId, serviceTypeId) &
-                         Builders<Appointment>.Filter.Eq(a => a.OfficeId, officeId)
-            &
+                         Builders<Appointment>.Filter.Eq(a => a.OfficeId, officeId) &
             Builders<Appointment>.Filter.Gte(a => a.SlotStartUtc, startOfDay) &
             Builders<Appointment>.Filter.Lt(a => a.SlotStartUtc, endOfDay);
 
