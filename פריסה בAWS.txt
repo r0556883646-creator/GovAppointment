@@ -1,0 +1,64 @@
+1)build and run
+S C:\Projects\test\GovAppointmentAPI> dotnet run
+Using launch settings from C:\Projects\test\GovAppointmentAPI\Properties\launchSettings.json...
+Building...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5192
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Projects\test\GovAppointmentAPI
+2)דוקר
+הרצות בPS
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Windows\system32> Get-Service WinGet | Restart-Service
+Get-Service : Cannot find any service with service name 'WinGet'.
+At line:1 char:1
++ Get-Service WinGet | Restart-Service
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WinGet:String) [Get-Service], ServiceCommandException
+    + FullyQualifiedErrorId : NoServiceFoundForGivenName,Microsoft.PowerShell.Commands.GetServiceCommand
+
+PS C:\Windows\system32> winget --version
+v1.1.13405
+PS C:\Windows\system32> winget source reset --force
+מאפס את כל המקורות...בוצע
+PS C:\Windows\system32> $OutputEncoding = [System.Text.Encoding]::UTF8
+PS C:\Windows\system32> winget source reset --force
+מאפס את כל המקורות...בוצע
+PS C:\Windows\system32> $OutputEncoding = [System.Text.Encoding]::UTF8 winget source reset --force
+At line:1 char:48
++ $OutputEncoding = [System.Text.Encoding]::UTF8 winget source reset -- ...
++                                                ~~~~~~
+Unexpected token 'winget' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Windows\system32> winget source update
+מעדכן את כל המקורות...
+מעדכן מקור: msstore...
+בוצע
+מעדכן מקור: winget...
+אירעה שגיאה לא צפויה בעת ביצוע הפקודה:
+0x80072ee7 : unknown error
+PS C:\Windows\system32> wsl --install
+wsl : The term 'wsl' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ wsl --install
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (wsl:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+עקב צורך בשידרוג גרסת WINDOWS לא התאפשר להוריד דוקר ולהמשיך בפעילות זו
+
+פתיחת חשבון באמאזון ונסיון לבנות EC2 חינמי
+ואז לפרוס את הPUBLISH במכונה הויטואלית
+אין אפשרות  באמאזון לקבל 
+כך שלא יכולתי להמשיך
