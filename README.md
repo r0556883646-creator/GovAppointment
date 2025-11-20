@@ -260,6 +260,8 @@ curl -X 'POST' \
   "phone": "0556883645",
   "email": "rerere@gmail.com"
 }'
+###
+
 ### קבלת תורים קיימים לפי סוג שירות וסניף (Appointments)
 
 curl -X 'GET' \
