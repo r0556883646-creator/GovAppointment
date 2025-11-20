@@ -210,6 +210,7 @@
 - MongoDB אינו מאופשר עם Authentication כברירת מחדל (יש להוסיף במידת הצורך).
 - כל שירות ממופה ל־Collection ייחודי במסד הנתונים.
 
+```text
 
 מבנה הפרויקט:
 /test/GovAppointmentAPI
@@ -239,6 +240,7 @@
 ├── appsettings.json         <-- קובץ קונפיגורציה
 └── Program.cs               <-- הקונפיגורציה הראשית של ASP.NET Core
 
+```
 
 # GovAppointmentAPI
 
