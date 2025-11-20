@@ -118,6 +118,7 @@
 4. פתיחת Swagger בדפדפן:
     ```
     https://localhost:7011/index.html
+1.  http://localhost:5192/index.html
     ```
 
 ---
