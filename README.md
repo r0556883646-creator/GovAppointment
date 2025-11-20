@@ -261,11 +261,13 @@ curl -X 'POST' \
   "email": "rerere@gmail.com"
 }'
 ###
+```
 
-### קבלת תורים קיימים לפי סוג שירות וסניף(Appointments)
+קבלת תורים קיימים לפי סוג שירות וסניף (Appointments)
+
 
 ```bash
 curl -X 'GET' \
   'https://localhost:7011/api/Appointment?serviceTypeId=svc-1&officeId=office-1&date=2025-11-25' \
   -H 'accept: text/plain'
-  ###
+  ```
